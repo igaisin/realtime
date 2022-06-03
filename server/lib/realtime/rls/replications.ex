@@ -63,6 +63,7 @@ defmodule Realtime.RLS.Replications do
             'include-pk', '1',
             'include-transaction', 'false',
             'include-timestamp', 'true',
+            'include-type-oids', 'true',
             'write-in-chunks', 'true',
             'format-version', '2',
             'actions', pub.w2j_actions,
